@@ -1,0 +1,16 @@
+body {
+    background-color: #FFFDF0; /* Kem sữa */
+    margin: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif; color: #5D4037;
+}
+.container {
+    text-align: center; background-color: #ffffff; padding: 40px; border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(189, 178, 148, 0.2); max-width: 400px; width: 90%;
+}
+.button-group { display: flex; gap: 15px; justify-content: center; margin-top: 20px; }
+.btn {
+    text-decoration: none; padding: 12px 25px; border-radius: 50px; font-weight: 500; transition: 0.3s;
+}
+.btn-ocean { background-color: #B2DFDB; color: #004D40; }
+.btn-latte { background-color: #D7CCC8; color: #4E342E; }
+.btn:hover { transform: translateY(-3px); opacity: 0.9; }
