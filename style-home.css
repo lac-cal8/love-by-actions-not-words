@@ -11,6 +11,6 @@ body {
 .btn {
     text-decoration: none; padding: 12px 25px; border-radius: 50px; font-weight: 500; transition: 0.3s;
 }
-.btn-ocean { background-color: #B2DFDB; color: #004D40; }
-.btn-latte { background-color: #D7CCC8; color: #4E342E; }
+.btn-ocean { background-color: #CDAF95; color: #8B7765; }
+.btn-latte { background-color: #CDAF95; color: #8B7765; }
 .btn:hover { transform: translateY(-3px); opacity: 0.9; }
