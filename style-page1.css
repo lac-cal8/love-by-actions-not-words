@@ -1,39 +1,67 @@
-/* style-page1.css - Light Sky Blue */
+/* style-page1.css - Muted Sky Blue Edition */
 body {
-    /* Màu xanh chính xác theo ảnh em gửi */
-    background-color: #87CEEB; 
+    /* Màu xanh pha chút sắc xám theo đúng ảnh em gửi */
+    background-color: #A3C1DA; 
     margin: 0; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
     min-height: 100vh;
     font-family: 'Segoe UI', sans-serif; 
-    /* Chữ màu xanh đen đậm để dễ đọc trên nền sáng */
-    color: #003366; 
+    /* Màu chữ nâu xám để hòa hợp với tông màu trầm */
+    color: #4A5D6A; 
 }
 
 .container {
     text-align: center; 
-    /* Nền khung trắng hơi trong suốt để hiện màu xanh phía sau */
-    background-color: rgba(255, 255, 255, 0.85); 
+    /* Nền trắng mờ để vẫn thấy được sắc xanh bên dưới */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 40px;
-    border-radius: 25px; 
+    border-radius: 30px; 
     max-width: 450px; 
     width: 90%; 
-    border: 1px solid #4682B4; 
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    /* Viền màu xanh xám đậm hơn một chút */
+    border: 1px solid #8FAABF; 
+    box-shadow: 0 10px 30px rgba(74, 93, 106, 0.1);
 }
 
 h1 {
-    color: #005B96; 
-    font-size: 1.8rem;
-    margin-bottom: 20px;
+    color: #3B4D5B; 
+    font-size: 1.7rem;
+    margin-bottom: 15px;
 }
 
 #hidden-message { 
     text-align: left; 
     margin: 20px 0; 
     line-height: 1.8; 
+    min-height: 150px; 
+    /* Thanh dọc màu xanh xám nhấn mạnh phong cách */
+    border-left: 3px solid #8FAABF; 
+    padding-left: 20px;
+    color: #4A5D6A;
+}
+
+#text-paragraph-1, #text-paragraph-2 {
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+}
+
+.btn-back { 
+    display: inline-block; 
+    margin-top: 25px; 
+    color: #5D707F; 
+    text-decoration: none; 
+    border-bottom: 1px solid #5D707F; 
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.btn-back:hover {
+    color: #3B4D5B;
+    border-bottom-color: #3B4D5B;
+    letter-spacing: 1px; /* Hiệu ứng giãn chữ nhẹ khi di chuột */
+}
     min-height: 150px; 
     /* Thanh dọc trang trí màu xanh đậm hơn một chút */
     border-left: 4px solid #4682B4; 
