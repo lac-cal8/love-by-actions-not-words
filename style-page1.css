@@ -1,11 +1,63 @@
+/* style-page1.css - Deep Sea Edition */
 body {
-    background-color: #E0F2F1; /* Xanh pastel */
-    margin: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh;
-    font-family: 'Segoe UI', sans-serif; color: #004D40;
+    /* Màu xanh biển trầm, tĩnh lặng hơn */
+    background-color: #264653; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif; 
+    /* Chữ màu trắng kem để nổi bật trên nền trầm */
+    color: #F1FAEE; 
 }
+
 .container {
-    text-align: center; background-color: rgba(255, 255, 255, 0.9); padding: 40px;
-    border-radius: 25px; max-width: 450px; width: 90%; border: 1px solid #B2DFDB;
+    text-align: center; 
+    /* Nền khung màu xanh đen rất đậm với độ trong suốt nhẹ */
+    background-color: rgba(29, 53, 87, 0.8); 
+    padding: 40px;
+    border-radius: 25px; 
+    max-width: 450px; 
+    width: 90%; 
+    /* Viền màu xanh nhạt hơn một chút để tạo chiều sâu */
+    border: 1px solid #457B9D; 
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
 }
-#hidden-message { text-align: left; margin: 20px 0; line-height: 1.6; min-height: 150px; }
-.btn-back { display: inline-block; margin-top: 20px; color: #00796B; text-decoration: none; border-bottom: 1px solid; }
+
+h1 {
+    color: #A8DADC; /* Màu xanh băng giá (Ice Blue) để làm điểm nhấn */
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+#hidden-message { 
+    text-align: left; 
+    margin: 20px 0; 
+    line-height: 1.8; 
+    min-height: 150px; 
+    /* Thanh dọc trang trí màu xanh sáng */
+    border-left: 3px solid #A8DADC; 
+    padding-left: 20px;
+}
+
+#text-paragraph-1, #text-paragraph-2 {
+    color: #F1FAEE; /* Giữ màu chữ trắng kem cho nội dung đánh máy */
+    font-size: 1.05rem;
+}
+
+.btn-back { 
+    display: inline-block; 
+    margin-top: 25px; 
+    color: #A8DADC; 
+    text-decoration: none; 
+    border-bottom: 1px solid #A8DADC; 
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+    color: #F1FAEE;
+    border-bottom-color: #F1FAEE;
+    transform: translateX(-5px); /* Hiệu ứng lùi nhẹ khi di chuột */
+}
